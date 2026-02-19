@@ -1,0 +1,28 @@
+{
+  "name": "express-01",
+  "version": "1.0.0",
+  "description": "Projeto Express + Post para estudo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Echilin/aos-2026-1.git"
+  },
+  "keywords": [
+    "express",
+    "post"
+  ],
+  "author": "Echilin",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Echilin/aos-2026-1/issues"
+  },
+  "homepage": "https://github.com/Echilin/aos-2026-1#readme",
+  "dependencies": {
+    "nodemon": "^3.1.12"
+  }
+}
