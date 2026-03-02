@@ -5,8 +5,7 @@
    "main": "api/index.js",
   "scripts": {
   "start": "nodemon --exec babel-node api/index.js",
-  "build": "babel api -d dist",
-  "start:prod": "node dist/index.js"
+  "build": "babel api -d dist"
   },
   "repository": {
     "type": "git",
