@@ -2,10 +2,11 @@
   "name": "express-01",
   "version": "1.0.0",
   "description": "Projeto Express + Post para estudo",
-  "main": "index.js",
+   "main": "api/index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "nodemon --exec babel-node api/index.js",
+  "build": "babel api -d dist",
+  "start:prod": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "@babel/core": "^7.29.0",
     "@babel/node": "^7.29.0",
     "@babel/preset-env": "^7.29.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
     "nodemon": "^3.1.12"
   }
 }
